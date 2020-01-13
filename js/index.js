@@ -69,6 +69,7 @@ navArray.forEach((x) => {
   x.textContent = siteContent['nav'][`nav-item-${index}`]
   x.style.color = 'green'
 })
+
 // MAIN-CONTENT
 
 //Grab all H4 elements within the document
@@ -111,3 +112,8 @@ navB.style.color = "green";
 headerNav = document.querySelector('header nav');
 headerNav.appendChild(navA); 
 headerNav.prepend(navB);
+
+//Stretch
+H4All.forEach(e => {
+  e.style.fontSize = 'large';
+})
